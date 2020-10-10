@@ -5,7 +5,7 @@
 
 FROM redis:4.0.14
 
-MAINTAINER XueWu <xuewu@xcxd.com>
+MAINTAINER XueWu
 
 ADD cnf/redis.conf /usr/local/etc/redis/redis.conf
 
