@@ -5,7 +5,7 @@
 
 FROM mysql:5.7.31
 
-MAINTAINER XueWu <xuewu@xcxd.com>
+MAINTAINER XueWu
 
 ADD cnf/mysqld.cnf /etc/mysql/mysql.conf.d
 
