@@ -1,5 +1,5 @@
 # docker build --rm=true -t custom-redis .
-# docker run --name redis -p 6379:6379 -d custom-redis
+# docker run -m 100m --name redis -p 6379:6379 -d custom-redis
 # docker exec -it redis sh
 # docker update --restart=always redis
 
